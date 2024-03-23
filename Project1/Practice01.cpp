@@ -19,10 +19,26 @@ int main()
 	ptr = NULL;
 	while (true)
 	{
+		//값을 제대로 입력받을 때까지 유도하는 코드
 		cout << "기능을 선택해주세요 1. 총합 2. 최소 3. 최대 ";
 		int choice;
-		cin >> choice;
-
+		cin >> choice;		
+		while (cin.fail() == true)
+		{
+			cout << "잘못된 값을 입력했습니다. 다시 입력을 진행하겠습니다!" << endl;
+			cin.clear(); // cin 객체에 내용을 비우겠습니다.
+			cin.ignore(100, '\n');//띄어쓰기가 발견되면 작업 종료(입력 값 무효화)
+			//cin.ignore(개수, 문장); 개수만큼의 입력 값을 무효화합니다. 입력한 문장을 만날 경우에는 중단
+			cout << "기능을 선택해주세요 1. 총합 2. 최소 3. 최대 ";
+			cin >> choice;
+		}
+		//값이 입력이 잘못됬을 경우 종료하는 코드
+		//if (cin.fail() == true)
+		//{
+		//	cout << "숫자가 아닌 값을 입력했습니다.";
+		//	cout << "프로그램을 종료하겠습니다." << endl;
+		//	break;
+		//}
 		switch (choice)
 		{
 		case 1:
@@ -33,6 +49,7 @@ int main()
 			ptr = max; break;
 		default :
 			cout << "입력이 잘못되었습니다" << endl;
+			ptr = NULL; //아래의 코드에 의해 출력되지 않도록 ptr을 비우겠습니다.
 		}
 
 		if(ptr != NULL)
