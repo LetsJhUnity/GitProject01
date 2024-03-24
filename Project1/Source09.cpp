@@ -24,6 +24,18 @@ void PlusPointer(int* value)
 //2. 전달한 int 형태의 변수의 제곱을 뽑는 함수
 //인자 값으로 사용할 값은 practice입니다.
 
+
+void Inverse(int& value)
+{
+	value = -value;
+}
+
+void Square(int& value)
+{
+	value = value * value;
+}
+
+
 int main()
 {
 	int data = 1;
@@ -39,8 +51,10 @@ int main()
 
 
 	int practice = 2;
-
-
+	Inverse(practice);
+	cout << practice << endl;
+	Square(practice);
+	cout << practice << endl;
 
 
 	return 0;
