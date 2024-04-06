@@ -127,6 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClassExample01.cpp" />
+    <ClCompile Include="ClassMain01.cpp" />
+    <ClCompile Include="ClassMain02.cpp" />
+    <ClCompile Include="ClassMain03.cpp" />
+    <ClCompile Include="ClassMain04.cpp" />
+    <ClCompile Include="ClassMain05.cpp" />
+    <ClCompile Include="ClassMain06.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterStatus.cpp" />
+    <ClCompile Include="Practice01.cpp" />
+    <ClCompile Include="Solution.cpp" />
     <ClCompile Include="Source01.cpp" />
     <ClCompile Include="Source02.cpp" />
     <ClCompile Include="Source03.cpp" />
@@ -134,7 +145,15 @@
     <ClCompile Include="Source05.cpp" />
     <ClCompile Include="Source06.cpp" />
     <ClCompile Include="Source07.cpp" />
+    <ClCompile Include="Source08.cpp" />
+    <ClCompile Include="Source09.cpp" />
+    <ClCompile Include="Source10.cpp" />
+    <ClCompile Include="Source11.cpp" />
     <ClCompile Include="Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterStatus.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
