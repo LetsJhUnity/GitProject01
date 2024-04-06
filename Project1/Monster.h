@@ -20,6 +20,14 @@ private :
 	MonsterStatus m_status;
 	//Has a 상속
 	//몬스터 클래스는 몬스터 스테이터스 클래스를 가지고 있습니다.
+	static int count; //몬스터의 개수(static : 전역)
+public :
+	Monster();
+	Monster(MonsterStatus);
+	~Monster();
+	void SetMonsterStatus(string _name, int _hp, int defense, int attack);
+	void Attack();
+	void Defence();
 };
 
 #endif;
