@@ -134,6 +134,9 @@
     <ClCompile Include="ClassMain04.cpp" />
     <ClCompile Include="ClassMain05.cpp" />
     <ClCompile Include="ClassMain06.cpp" />
+    <ClCompile Include="ClassMain07.cpp" />
+    <ClCompile Include="ClassMain08.cpp" />
+    <ClCompile Include="ClassMain09.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterStatus.cpp" />
     <ClCompile Include="Practice01.cpp" />
@@ -156,6 +159,10 @@
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterStatus.h" />
     <ClInclude Include="Slime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

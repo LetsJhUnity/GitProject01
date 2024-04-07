@@ -90,6 +90,15 @@
     <ClCompile Include="Slime.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ClassMain07.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMain08.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMain09.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
@@ -101,5 +110,9 @@
     <ClInclude Include="Slime.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>
