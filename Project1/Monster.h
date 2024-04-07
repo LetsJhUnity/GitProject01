@@ -16,7 +16,8 @@
 
 class Monster
 {
-private :
+//private -> protected (2024-04-07)
+protected :
 	MonsterStatus m_status;
 	//Has a 상속
 	//몬스터 클래스는 몬스터 스테이터스 클래스를 가지고 있습니다.
@@ -31,7 +32,6 @@ public :
 };
 
 #endif;
-
-//해당 코드의 처리 방식
+//해당 코드의 처리 방식 
 //1. ifndef _MONSTER_H를 읽는다.
 //2. _MONSTER_H가 정의되어 있으므로, endif 까지의 내용을 읽어낸다.

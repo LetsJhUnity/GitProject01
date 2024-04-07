@@ -137,6 +137,7 @@
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterStatus.cpp" />
     <ClCompile Include="Practice01.cpp" />
+    <ClCompile Include="Slime.cpp" />
     <ClCompile Include="Solution.cpp" />
     <ClCompile Include="Source01.cpp" />
     <ClCompile Include="Source02.cpp" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterStatus.h" />
+    <ClInclude Include="Slime.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

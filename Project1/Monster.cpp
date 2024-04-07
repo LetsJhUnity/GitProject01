@@ -6,7 +6,7 @@ Monster::Monster()
 {
 	SetMonsterStatus("",0,0,0);
 	count++;
-	cout << "(NULL) 유닛이 생성되었습니다!" << endl;
+	//cout << "(NULL) 유닛이 생성되었습니다!" << endl;
 	cout << "현재 생성된 유닛의 개수 " << count << endl;
 }
 Monster::Monster(MonsterStatus _status)

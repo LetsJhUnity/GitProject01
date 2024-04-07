@@ -19,3 +19,8 @@ void MonsterStatus::SetHp(int _hp) { m_hp = _hp; }
 void MonsterStatus::SetDefense(int _defense) { m_defense = _defense; }
 
 void MonsterStatus::SetAttack(int _attack) { m_attack = _attack; }
+
+void MonsterStatus::GetMonsterStatus()
+{
+	cout << "[" << m_name << " " << m_hp << " " << m_defense << " " << m_attack << "]" << endl;
+}

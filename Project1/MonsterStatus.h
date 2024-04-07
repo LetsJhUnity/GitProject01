@@ -15,6 +15,7 @@ public :
 	void SetHp(int _hp);
 	void SetDefense(int _defense);
 	void SetAttack(int _attack);
+	void GetMonsterStatus();
 private :
 	string m_name;
 	int m_hp;
