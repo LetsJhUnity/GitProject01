@@ -137,6 +137,7 @@
     <ClCompile Include="ClassMain07.cpp" />
     <ClCompile Include="ClassMain08.cpp" />
     <ClCompile Include="ClassMain09.cpp" />
+    <ClCompile Include="ClassMain10.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterStatus.cpp" />
     <ClCompile Include="Practice01.cpp" />

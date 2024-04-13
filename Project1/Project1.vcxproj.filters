@@ -99,6 +99,9 @@
     <ClCompile Include="ClassMain09.cpp">
       <Filter>클래스 소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ClassMain10.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
