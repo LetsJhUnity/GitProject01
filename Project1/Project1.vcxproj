@@ -140,6 +140,7 @@
     <ClCompile Include="ClassMain10.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="MonsterStatus.cpp" />
+    <ClCompile Include="OperationOverloadingMain01.cpp" />
     <ClCompile Include="Practice01.cpp" />
     <ClCompile Include="Slime.cpp" />
     <ClCompile Include="Solution.cpp" />
