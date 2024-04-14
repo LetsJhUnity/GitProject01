@@ -105,6 +105,15 @@
     <ClCompile Include="OperationOverloadingMain01.cpp">
       <Filter>클래스 소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="OperationOverloadingMain02.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMain11.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMain12.cpp">
+      <Filter>클래스 소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
